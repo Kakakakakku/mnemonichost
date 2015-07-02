@@ -1,5 +1,5 @@
 require "mnemonichost/version"
 
 module Mnemonichost
-  # Your code goes here...
+  autoload :CLI, 'mnemonichost/cli'
 end
